@@ -1,0 +1,13 @@
+.fb-tag-node {
+	background-color: #e6eeff;
+	background-color: rgba(88, 144, 255, .15);
+	border-bottom: 1px solid #cdddff;
+	border-bottom: 1px solid rgba(88, 144, 255, .3);
+	padding: 1px 2px;
+	color: #333;
+	font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-weight: 400;
+}
+.fb-tag-node + .fb-tag-node {
+	margin-left: 4px;
+}

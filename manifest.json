@@ -1,0 +1,17 @@
+{
+	"name": "Facebook Post Tags",
+	"description": "User content, tagged",
+	"version": "1.0",
+	"manifest_version": 2,
+	"content_scripts": [ {
+		"js": [ "jquery-2.1.0.min.js", "content.js" ],
+		"css": ["style.css"],
+		"matches": [ "*://www.facebook.com/*"]
+	}],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"*://www.facebook.com/*", "tabs", "webNavigation", "webRequest"
+	]
+}
